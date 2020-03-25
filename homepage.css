@@ -1,0 +1,28 @@
+#head-part{
+    background-color: darkgray;
+    font-family: serif;
+}
+#list-body{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+
+}
+
+#validate-part{
+    height: 40px;
+    width: 80px;
+}
+
+#image-part{
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: inset;
+}
+
+#list-head{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
