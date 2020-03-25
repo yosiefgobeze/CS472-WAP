@@ -31,10 +31,12 @@ p{
 }
 .imgHappy{
     width: 200px;
-    height:250px;
+    height:200px;
+    border-radius: 100;
 }
 
 .imgsad{
     width: 300px;
-    height:250px;
+    height:300px;
+    border-radius: 150;
 }
