@@ -1,6 +1,7 @@
 #head-part{
     background-color: darkgray;
     font-family: serif;
+    padding: 0px;
 }
 #list-body{
     font-size: 16px;
@@ -15,14 +16,24 @@
 }
 
 #image-part{
-    
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
+    padding: 0px;
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
     box-shadow: inset;
+}
+
+h2{
+    margin: 0px;
+    padding: 0px;
 }
 
 #list-head{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
 }
