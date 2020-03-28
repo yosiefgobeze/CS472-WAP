@@ -51,7 +51,7 @@ ul{
     width: 264px;
 }
 #posterHeader{
-    
+    background-image: url("images/rbg.png");
     font-size: 48pt;
     color: red;
     font-weight: bold;
