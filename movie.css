@@ -11,7 +11,7 @@ body{
 }
 #topBanner{
     text-align: center;
-   
+    background-image: url("images/bannerbg.png");
 }
 h1{
     text-align: center;
