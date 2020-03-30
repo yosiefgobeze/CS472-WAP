@@ -232,5 +232,3 @@ console.log(fibonacci_series(6, 0, 1));// Output: [ 0, 1, 1, 2, 3, 5 ]
           b.	New Product Form: Add code such that when the Submit button is clicked, the values entered in the input fields are displayed in a pop-up window.
 
  */
-
- console.log("https://gebrenew2018.github.io/CS472-WAP/product/index.html")
