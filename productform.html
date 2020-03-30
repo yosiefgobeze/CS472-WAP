@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      MIU Dome market products
+    </title>
+    <link rel="stylesheet" href="css/productform.css">
+  </head>
+  <body>
+    <div id="navbar">
+      <h2>MIU Golden Dome Market :: SRM System!!</h2>
+      <ul>
+        <li>Products</li>
+        <li>Suppliers</li>
+      </ul>
+      <span>Hello ! <button>Logout</button></span>
+    </div>
+    <div id="main">
+      <form action="#">
+        <h3>New Product Form</h3>
+        <div>
+          <label>Email Address </label><br />
+          <input type="text" name="productId" /><br />
+        </div>
+
+        <div>
+          <label>Quantity in stock </label><br />
+
+          <input type="number" name="qty" /><br />
+        </div>
+        <div>
+          <label>Name </label><br />
+          <input type="text" name="name" />
+        </div>
+        <div>
+          <label>supplier </label><br />
+          <select name="supplier">
+            <option selected>Select a supplier</option>
+            <option>Supplier-1</option>
+            <option>Supplier-2</option>
+            <option>Supplier-3</option>
+            <option>Supplier-4</option>
+            
+          </select>
+        </div>
+
+        <div>
+          <label>Unit price </label><br />
+
+          <input type="number" name="price" />
+        </div>
+        <div>
+          <label>Date Supplied </label>
+
+          <input type="date" name="date" />
+          Enter Valid Date
+        </div>
+
+        <input type="reset" />
+        <input type="submit" />
+        <input type="reset" value="Cancel" />
+      </form>
+    </div>
+    <div style="position: fixed;bottom:0;left:0;">
+      <a href="https://validator.w3.org/check/referer"
+        ><img src="images/w3c-html.png" alt="Valid HTML5"
+      /></a>
+      <br />
+      <a href="https://jigsaw.w3.org/css-validator/check/referer"
+        ><img src="images/w3c-css.png" alt="Valid CSS"
+      /></a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      Lognin Form
+    </title>
+	<link href="css/loginform.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="top-header">MIU Golden Dome Market :: SRM System!!</div>
+    <form action="demo_form.jsp">
+      <label>Email Address </label><br />
+      <input type="text" name="email" placeholder="enter email" /><br />
+      We will never share your Email with anyone<br /><br />
+      <label>Password </label><br />
+      <input type="password" placeholder="Password" name="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}"
+        title="the Password field is at least 10 characters in length and 
+        contains at least one number and one uppercase and lowercase letter"/><br />
+
+      <br />
+      
+      <label>Enter URL:</label><br />
+      <input
+        type="text"
+        pattern="https?://.+"
+        title="Include http://"
+        placeholder="Enter URL"
+      /><br /><br />
+
+      <input type="checkbox" id="layout"/>Check me out<br /><br />
+      <input type="submit" /><br />
+    </form>
+    <!--Here the two image links will be used to validate the html and css contents of the page-->
+    <div style="position: fixed;bottom:0;left:0;">
+      <a href="https://validator.w3.org/check/referer"
+        ><img src="images/w3c-html.png" alt="Valid HTML5"
+      /></a>
+      <br />
+      <a href="https://jigsaw.w3.org/css-validator/check/referer"
+        ><img src="images/w3c-css.png" alt="Valid CSS"
+      /></a>
+    </div>
+  </body>
+</html>

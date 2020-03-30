@@ -1,0 +1,76 @@
+/* this is the styling of the productform.html*/
+#main {
+    width: 50%;
+    margin: 80px auto auto auto;
+  }
+form div {
+    float: left;
+    width: 48%;
+    margin: 1%;
+    border-radius: 15px;
+  }
+
+input,
+select {
+    width: 100%;
+    border-color: grey;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin-top: 12px;
+    border-radius: 15px;
+  }
+input[type="submit"],
+input[type="reset"],
+input[type="reset"] {
+    width: 80px;
+    background-color: darkgray;
+    padding: 10px;
+    background-color: white;
+    float: right;
+    margin: 8px;
+  }
+input[type="submit"] {
+background-color: teal;
+color: white;
+  }
+input[type="reset"] {
+    background-color: rgb(128, 0, 28);
+    color: white;
+  }
+
+li,
+ul,
+h2 {
+    display: inline;
+    margin-right: 10px;
+  }
+li {
+    padding: 10px;
+    border-left: 1px solid white;
+  }
+span {
+    float: right;
+  }
+#navbar {
+    padding: 15px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: darkgray;
+    border-radius: 25px;
+    text-align: left;
+    /*
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    */
+  }
+#navbar li{
+    font-size: 16px;
+}
+
+#navbar span button{
+    font-size: 16px;
+    border-radius: 5px;
+}

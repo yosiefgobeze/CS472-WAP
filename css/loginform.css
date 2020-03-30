@@ -1,0 +1,35 @@
+/* css file for the loginform.html*/
+/* here the css is by the attribute type for the input tag of the form*/
+
+
+#top-header{
+      padding: 15px;
+      font-size: 24px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+      background-color: darkgray;
+      border-radius: 25px;
+      text-align: center;
+}
+input[type="text"],
+input[type="password"] {
+        background-color: rgb(232, 238, 237);
+        border-color: grey;
+	  width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        margin-top: 12px;
+        border-radius: 10px;
+      }
+form {
+      
+        width: 50%;
+        margin: 50px auto auto auto;
+      }
+input[type="submit"] {
+        background-color: #32b7f9;
+        padding: 10px;
+        color: white;
+        border-radius: 10px;
+      }
