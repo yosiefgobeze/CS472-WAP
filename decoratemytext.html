@@ -1,49 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Text Decorator</title>
+    <title>Decorating my window</title>
     <link href="css/decoratemytext.css" rel="stylesheet" type="text/css"/>
-
     <!--
-    This is a widely-used JavaScript library named jQuery that has
-    many useful functions which we need.
-    Please don't remove this link or change its URL; leave it as-is!
+        The link below is to a javascript library know as a JQuery, it will render our window has many functions.
     -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
     <!-- link to your script file here -->
     <script src="js/decoratemytext.js"></script>
     <!-- link to your script file here -->
 
 </head>
 <body>
-<h1>Text Decorator</h1>
+<h1>Decorating my Window</h1>
 
-<div>
-    <img alt="very decorated!" src="images/decorated.gif"/>
+<div id="image-animate">
+    <img alt="here is a gif image decorated!" src="images/decorated.gif"/>
 </div>
 
-<!-- Your UI controls go here -->
+<!-- Your UI controls go here, where you can feed content-->
 <fieldset>
     <legend>Text</legend>
-    <textarea cols="30" id="textarea" placeholder="Type your text here ..." rows="4"></textarea>
+    <textarea cols="30" id="textarea" placeholder="Here you can text ..." rows="4"></textarea>
 </fieldset>
 
 <fieldset>
     <legend>Decoration</legend>
     <input onclick="interval()" type="button" value="Bigger Decorations!"/> <br/> <br/>
     <input id="bling" onchange="boldText()" type="checkbox" value="bling"/> Bling
-    <input onclick="pig()" type="button" value="Igpay Atinlay"/>
-    <input onclick="markov()" type="button" value="Malkovich"/>
+    <input onclick="pig()" type="button" value="JavaScript is powerfull"/>
+    <input onclick="markov()" type="button" value="Fascinating scripting language"/>
 </fieldset>
 <div id="validation">
     <a href="https://validator.w3.org/check/referer">
-        <img alt="Validate" src="images/w3c-html.png"/>
+        <img alt="Validate html" src="images/w3c-html.png"/>
     </a>
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
-        <img alt="Valid CSS!" src="images/w3c-css.png"/>
+        <img alt="Validate CSS!" src="images/w3c-css.png"/>
     </a>
     <a href="https://webster.cs.washington.edu/jslint/?referer">
-        <img src="https://webster.cs.washington.edu/w3c-js.png" alt="Valid JS" />
+        <img src="images/w3c-js.png" alt="Validate JS!">
+        <!--<img src="https://webster.cs.washington.edu/w3c-js.png" alt="Valid JS" />-->
     </a>
 
 </div>

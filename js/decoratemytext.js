@@ -21,7 +21,8 @@
             document.getElementById("textarea").style.fontWeight = "bold";
             document.getElementById("textarea").style.color = "red";
             document.getElementById("textarea").style.textDecoration = "underline";
-            document.body.style.backgroundImage = 'url("http://www.cs.washington.edu/education/courses/190m/CurrentQtr/labs/6/hundred-dollar-bill.jpg")';
+            document.body.style.backgroundImage =  'url("images/mybulb.jpg")';
+            //document.body.style.backgroundImage = 'url("http://www.cs.washington.edu/education/courses/190m/CurrentQtr/labs/6/hundred-dollar-bill.jpg")';
         } else {
             document.getElementById("textarea").style.fontWeight = "";
             document.getElementById("textarea").style.color = "";
