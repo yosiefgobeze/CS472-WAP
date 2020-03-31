@@ -10,6 +10,10 @@ body {
     height: 75px;
 }
 
+fieldset{
+    margin: auto;
+}
+
 #header {
     text-align: center;
     margin-bottom: 1em;
