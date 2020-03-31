@@ -62,7 +62,7 @@
         var result = "";
         for (let i = 0; i < arr.length; i++) {
             if (arr[i].length >= 5) {
-                arr[i] = "Malkovich";
+                arr[i] = "JavaScript";
             }
             result += arr[i] + " ";
         }
