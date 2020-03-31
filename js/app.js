@@ -80,22 +80,36 @@ console.log(maxOfThree(20,25,10)); // Output:  25
    */
 
   function reverse(str){
-    return str.split('').reverse().join('') 
-   }
- 
-   console.log(reverse("jag testar")) //  Output: ratset gaj
+  let reversed = "";
+    for(let i = 1;i < str.length; i++)
+    {
+        reversed += str.charAt(str.length-i);
+    }
+    return reversed;
+	}
+
+  console.log(reverse("jag testar")) //  Output: ratset gaj
+  // document.getElementById("reverse").innerHTML = reverse("jag testar");
 
    /**
     * Q6: Write a function findLongestWord() that takes an 
     *     array of words and returns the length of the longest one.
     */
 
-    function findLongestWord(str){
-            var longestWord = str.split(' ').sort(function(a, b) { return b.length - a.length; });
-             return longestWord[0];
+   function findLongestWord(wordList) {
+	let maxLength = wordList[0].length;
+    let longestWord = wordList[0];
+    for(let i=1; i< wordList.length; i++) {
+    if(maxLength<wordList[i].length ) {
+        maxLength=wordList[i].length;
+        longestWord = wordList[i];
     }
-    
-    console.log(reverse("read a javascript")) //Output: javascript
+    }
+    return longestWord;
+    }
+    let words = ["JavaScript is powerfull", "Java is robust", "C is low level"];
+	console.log(findLongestWord(words));
+	// document.getElementById("findlongestword").innerHTML = findLongestWord(words);
 
     /**
      * Q7: Write a function filterLongWords() that takes an array of words and an integer i and 
