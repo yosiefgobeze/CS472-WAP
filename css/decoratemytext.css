@@ -11,7 +11,7 @@ body {
 }
 
 fieldset{
-    margin: auto;
+    margin: 25px auto auto auto;
 }
 
 #header {
