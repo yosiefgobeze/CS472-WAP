@@ -32,7 +32,7 @@
         }
     }
 
-    function pig() {
+    function fullImage() {
         var words = document.getElementById("textarea").value;
         var splittedword = words.split(/\s+/);
         var result = "";
@@ -56,7 +56,7 @@
 
     }
 
-    function markov() {
+    function fullText() {
         var words = document.getElementById("textarea").value;
         var arr = words.split(/\s+/);
         var result = "";
