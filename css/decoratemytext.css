@@ -12,6 +12,7 @@ body {
 
 fieldset{
     margin: 25px auto auto auto;
+    width: auto;
 }
 
 #header {
