@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS472 - MiniBanking  App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+          crossorigin="anonymous">
+<link rel="stylesheet" href="./css/bank.css">
+<script defer src="./js/bank.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">CS472 ::: MiniBanking App</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <form id="bankApp" name="bankApp" method="POST">
+        <fieldset>
+          <legend>Bank Account Form</legend>
+          <div class="form-group row">
+            <label for="accountNo" class="col-sm-2 col-form-label">Account No</label>
+            <div class="col-sm-4">
+              <input type="text"class="form-control" maxlength="11" id="accountNo" name="accountNo" placeholder="01-xxx-xxxx" required pattern="[01]{2}-[0-9]{3}-[0-9]{4}">
+              <small>Your unique account number starting with 01</small>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="customerName" class="col-sm-2 col-form-label">Customer Name</label>
+            <div class="col-sm-4">
+              <input type="text"class="form-control" id="customerName" name="customerName" placeholder="e.g. John B. Smith" required>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="accountType" class="col-sm-2 col-form-label">Account Type</label>
+              <div class="col-sm-4">
+                  <select name="accountType" id="accountType" class="form-control" required>
+                      <option value="">--Select Account Type--</option>
+                      <option value="Checking">Checking</option>
+                      <option value="Loan">Loan</option>
+                      <option value="Saving">Saving</option>
+                  </select>
+              </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-4">
+            <input id="btnSubmit" type="submit" value="Create New Account" class="btn btn-primary">
+            </div>
+          </div>
+        </fieldset>
+      </form>  
+       <div id="divResult" style="display: none;">
+        <ul id="result" class="list-group">
+            <li class="list-group-item active">List of Customer Accounts</li>
+          </ul>
+       </div>
+      </div>
+     
+      <footer>
+        <div >
+            <span style="margin-left: 2em; margin-right: 2em;">CS472 Bank ::: WAP</span>
+            <span style="float: right;margin-right: 2em;">&copy; April 2020</span>
+        </div>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
