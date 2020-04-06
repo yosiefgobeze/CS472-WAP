@@ -1,3 +1,4 @@
+// This assignment i have already submitted it but i need to include it in my webpage
 window.onload = function(){
     "use strict";
 //Q1:
